@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		91A8FCE91B4C831D0016D1B8 /* DiamondSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A8FCE81B4C831D0016D1B8 /* DiamondSwitch.framework */; };
 		DB05B04F93E63DAFA195E93B /* Pods_DiamondSwitch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11E91F22251FC35D0CEA545 /* Pods_DiamondSwitch_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		EDD7B78EC96F391F7F81EAEC /* Pods_DiamondSwitch_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73A877F419170A91AAFCBFC /* Pods_DiamondSwitch_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +36,13 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = DiamondSwitch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* DiamondSwitch_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamondSwitch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B2506D0894514FFA19C04D9 /* Pods-DiamondSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondSwitch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiamondSwitch_Example/Pods-DiamondSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E60FBEDEA5749EF664BEC47 /* Pods-DiamondSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiamondSwitch_Tests/Pods-DiamondSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		749A4E2743E8B77452A88BAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91A8FCE81B4C831D0016D1B8 /* DiamondSwitch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiamondSwitch.framework; path = "Pods/../build/Debug-iphoneos/Pods-DiamondSwitch_Example/DiamondSwitch.framework"; sourceTree = "<group>"; };
 		A11E91F22251FC35D0CEA545 /* Pods_DiamondSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiamondSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73A877F419170A91AAFCBFC /* Pods_DiamondSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiamondSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7DB9C94A7C2575483216BC /* Pods-DiamondSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamondSwitch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiamondSwitch_Tests/Pods-DiamondSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD7B78EC96F391F7F81EAEC /* Pods_DiamondSwitch_Example.framework in Frameworks */,
+				91A8FCE91B4C831D0016D1B8 /* DiamondSwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* DiamondSwitch_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* DiamondSwitch_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +154,7 @@
 		DB9349A5E56CC4D8A609BAE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91A8FCE81B4C831D0016D1B8 /* DiamondSwitch.framework */,
 				B73A877F419170A91AAFCBFC /* Pods_DiamondSwitch_Example.framework */,
 				A11E91F22251FC35D0CEA545 /* Pods_DiamondSwitch_Tests.framework */,
 			);
@@ -200,7 +202,7 @@
 			);
 			name = DiamondSwitch_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* DiamondSwitch_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,6 +211,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {

@@ -1,0 +1,6 @@
+framework module DiamondSwitch {
+  umbrella header "Pods-DiamondSwitch_Tests-DiamondSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

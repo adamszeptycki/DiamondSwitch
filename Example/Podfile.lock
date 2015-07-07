@@ -1,0 +1,14 @@
+PODS:
+  - DiamondSwitch (0.1.0)
+
+DEPENDENCIES:
+  - DiamondSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  DiamondSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DiamondSwitch: bea9f98532b177f25fd93c67308bcaefb102021f
+
+COCOAPODS: 0.37.2

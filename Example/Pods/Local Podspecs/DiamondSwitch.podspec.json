@@ -1,0 +1,25 @@
+{
+  "name": "DiamondSwitch",
+  "version": "0.1.0",
+  "summary": "A short description of DiamondSwitch.",
+  "description": "                       An optional longer description of DiamondSwitch\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DiamondSwitch",
+  "license": "MIT",
+  "authors": {
+    "Adam Szeptycki": "adamszeptycki@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DiamondSwitch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DiamondSwitch": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
